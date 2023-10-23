@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" /> <!-- Warna latar belakang rectangle -->
+    <size android:width="200dp" android:height="100dp" />
+    <corners android:radius="30dp"/><!-- Ukuran rectangle -->
+</shape>

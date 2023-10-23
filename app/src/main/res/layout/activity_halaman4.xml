@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman4"
+    android:background="@drawable/regis"
+    android:id="@+id/clik">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/moresugar"
+        android:text="Registration"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="39sp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="583dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/lexendbold"
+        android:gravity="center"
+        android:text="need help?"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,TextSizeCheck,TouchTargetSizeCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/create"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="125dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/league"
+        android:gravity="center"
+        android:text="Create"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/regis"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:autofillHints=""
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/league"
+        android:gravity="center_vertical"
+        android:hint="Name"
+        android:paddingStart="19dp"
+        android:textColor="@color/mostgrey"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,RtlSymmetry,TextContrastCheck,TextFields" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="333dp"
+        android:autofillHints=""
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/league"
+        android:gravity="center_vertical"
+        android:hint="Email Address"
+        android:paddingLeft="19dp"
+        android:textColor="@color/mostgrey"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextContrastCheck,TextFields,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="389dp"
+        android:layout_height="63dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="398dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/league"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColor="@color/mostgrey"
+        android:textSize="19dp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextContrastCheck,TextFields,TextSizeCheck" />
+
+
+</RelativeLayout>
+
+
+
+

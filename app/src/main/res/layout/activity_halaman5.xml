@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/mainmenu">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/videografi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="183dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/video"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="360sp"
+
+            android:layout_marginTop="25dp"
+            android:background="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dua"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/duadimensi"
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tiga"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/tigademensi"
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/lexend"
+            android:text="3D"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText,TextSizeCheck">
+
+        </TextView>
+    </RelativeLayout>

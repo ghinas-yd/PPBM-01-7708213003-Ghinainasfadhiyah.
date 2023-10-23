@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman8">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="16dp">
+
+        <!-- Add your content here, e.g., TextViews, ImageViews, etc. -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexendbold"
+            android:textColor="@color/black"
+            android:text="Videography"
+            android:textSize="35sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-29dp"
+            android:layout_marginHorizontal="340dp"
+            android:background="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Film"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/moresugar"
+            android:textSize="30dp"
+            android:textColor="@color/tosca"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:id="@+id/film"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/film"
+                android:layout_marginStart="105dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/film1"
+                android:layout_marginStart="-46dp"
+                tools:ignore="ContentDescription">
+
+
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu2"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/menu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editing"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/moresugar"
+            android:textSize="30dp"
+            android:textColor="@color/kuningjreng"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:layout_marginStart="155dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

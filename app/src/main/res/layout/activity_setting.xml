@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman9"
+    android:background="@drawable/setpage">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/profil"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="140dp"
+        android:layout_marginTop="120dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/sage"
+        android:fontFamily="@font/league"
+        android:gravity="center"
+        android:text="profile"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonback"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="67dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/lexendbold"
+        android:text="My Account"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck">
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="359dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/settings"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/kuningjreng"
+        android:layout_marginTop="245dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="67dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/lexendbold"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck,TextSizeCheck">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/icon2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="67dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/lexendbold"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck">
+
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/icon3"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/icon1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

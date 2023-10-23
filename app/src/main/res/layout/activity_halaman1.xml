@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".halaman1"
+    android:background="@drawable/started">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="220dp"
+        tools:ignore="TextSizeCheck">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/baksosapi"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="15dp"
+
+        android:paddingHorizontal="40dp"
+        android:text="@string/mulai_mendesain_dengan_pengalaman_baru_bersamazeppo_design_coba_sekarang_juga_dapatkan_pengalam_baru_disini"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="VisualLintLongText,TextSizeCheck">
+
+    </TextView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/started"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:width="300dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/lexend"
+            android:gravity="center"
+            android:text="@string/getting_started"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+</LinearLayout>

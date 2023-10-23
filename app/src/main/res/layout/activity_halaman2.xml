@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman2"
+    android:background="@drawable/pagelogin">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:contentDescription="todo"
+        tools:ignore="HardcodedText" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/masuk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/league"
+        android:gravity="center"
+        android:text="Login"
+        android:paddingLeft="20dp"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/daftar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/masuk"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/league"
+        android:gravity="center"
+        android:text="Registrasi"
+        android:paddingLeft="20dp"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+
+
+</RelativeLayout>
+

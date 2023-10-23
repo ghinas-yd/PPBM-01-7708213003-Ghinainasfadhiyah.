@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".menu2d"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="16dp">
+
+        <!-- Add your content here, e.g., TextViews, ImageViews, etc. -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexendbold"
+            android:textColor="@color/black"
+            android:text="2D Design"
+            android:textSize="35sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/set"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="330sp"
+            android:layout_marginTop="-29dp"
+            android:background="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/menu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/moresugar"
+            android:paddingLeft="20dp"
+            android:text="Character"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kartun"
+                android:layout_marginStart="175dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/menu"
+        android:id="@+id/menu2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/moresugar"
+            android:paddingLeft="60dp"
+            android:text="Poster"
+            android:textColor="@color/kuningjreng"
+            android:textSize="25dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="215dp"
+                android:layout_marginTop="-8dp"
+                android:src="@drawable/poster1"
+                tools:ignore="ContentDescription,VisualLintBounds">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="135dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/poster2d"
+                android:layout_marginStart="-220dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/menu2">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/moresugar"
+            android:paddingLeft="60dp"
+            android:text="Banner"
+            android:textColor="@color/sage"
+            android:textSize="25dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextContrastCheck,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="166dp"
+                android:src="@drawable/banner1"
+                tools:ignore="ContentDescription,VisualLintBounds">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
